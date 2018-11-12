@@ -1,0 +1,112 @@
+body {
+  background-color: plum;
+}
+
+#country1 {
+  color: green;
+  font-family: sans-serif;
+}
+
+#country2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+#country3 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+#bai-bureh {
+  color: green;
+}
+
+#tax-war {
+  color: white;
+}
+
+#independence {
+  color: blue;
+}
+
+#country-history {
+  font-family: "Helvetica", sans-serif;
+  text-align: justify;
+}
+
+#container {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: green;
+  list-style: none;
+}
+
+.link ul{
+  list-style: none;
+  padding: 0.2px;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: yellow;
+}
+
+a:active{
+  color:red;
+}
+
+#sl-flag{
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 8px ridge green;
+  
+}
+
+#culture {
+  width: 150px;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  }
+
+.ethnicity {
+  background-color: purple;
+  font-weight: bold;
+  font-family: serif;
+  color: mediumseagreen;
+}
+
+.administrative {
+  color: green;
+}
+
+h2, h3 {
+  font-size: 20px;
+  text-align: justify;
+  color: darkgreen;
+}
+
+.cultural {
+  color: darkcyan;
+}
+
+p.religious {
+  font-family: cursive;
+  color: mediumvioletred;
+}
+
+#closing {
+  font-familiy: cursive;
+}
+
+#quinny {
+  color: midnightblue;
+}
