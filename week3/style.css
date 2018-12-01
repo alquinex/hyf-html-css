@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#container{
+    width: 100%;
+    overflow: hidden; 
+}
+
+.clr{
+    clear: both;
+}
+
+#logo img{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+header{
+    background: #01689b;
+    color: #fff;
+    padding-top: 5px;
+    min-height: 50px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.6em;
+
+}
+
+#home h3{
+    border-radius: 1px;
+    margin-left: 85px;
+    margin-top:10px;
+}
+
+#home h3 a:hover{
+    text-decoration: underline;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover{
+    text-decoration: underline;
+    border-bottom: 2px;
+}
+
+header li{
+    display: inline-block;
+    padding: 0 10 20 15px;
+}
+
+header #home{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+    max-height: 70px;
+    padding-right: 60px;
+}
+
+#showcase .showcase-content{
+    float: left;
+    width: 30%;
+    background: white;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 25 0 0 60px;
+    min-height: 30%;
+    line-height: 1.625rem;
+    font-weight: bold;
+}
+
+
+#showcase .showcase-content a:hover,
+.column-item .blocks a:hover,
+.column-item2 .blocks2 a:hover,
+.columns3 .column-item3 a:hover,
+.meernieuws a:hover, 
+#footer .list1 a:hover, #footer .list2 a:hover{
+    text-decoration: underline;
+    border-bottom: 1px;
+}
+
+#showcase .showcase-content h2{
+    padding: 5px;
+    border-radius: 1px;
+    font-weight: normal;
+    line-height: 1.875rem;
+    font-size: 1.325rem;
+    color: #000;
+}
+
+#showcase .showcase-content li,
+.meernieuws li, 
+#footer .list1 ul li, 
+#footer .list2 ul li{
+    list-style: none;
+}
+
+#showcase .showcase-content a, 
+.column-item .blocks a,
+.column-item2 .blocks2 a,
+.columns3 .column-item3 a,
+.meernieuws a,
+.columns4 .column-item4 a{
+    text-decoration: none;
+    color: #01689b;    
+}
+
+#copyright{
+    font-size: .8em;
+    color: #fff;
+    padding: 20 0 0 50px;
+}
+
+form .form-content{
+    float: right;
+    margin-top: 25px;
+    padding-right: 70px;
+}
+
+
+form .form-content input[type=text]{
+    width: 80%;
+    padding: 15 5 10 5px;
+}
+
+form .searchterm{
+    width: 75%;  
+}
+
+.columns{
+    margin-top: 40px;
+}
+
+.column-item .blocks h2{
+    padding-bottom: 5px;
+    font-size: 1.45em;
+}
+
+.column-item .blocks p,
+.column-item2 .blocks2{
+    line-height: 1.375em;
+}
+
+.columns .column-item{
+    float: left;
+    width: 21%;
+    padding: 10 0 10 40px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+#showcase{
+    min-height: 300px;
+    background-image: url('https://i.postimg.cc/rF8cmtcg/wagen.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.columns2 .column-item2{
+    float: left;
+    width: 31.5%;
+}
+
+.column-item2 .blocks2 img{
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+
+.column-item2 .blocks2{
+    margin: 30px 0 40px 40px;
+}
+
+.column-item2 .blocks2 P{
+    padding: 10 0 0 0px;
+}
+
+.column-item2 .blocks2 h3,{
+    font-size: 1.75rem;
+    margin: 5 0 15 0px;
+}
+
+.column-item2 .blocks2 p,
+.columns .column-item p,
+.columns3 .column-item3 p{
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.horizontal{
+    margin: 0 40px; 
+}
+
+.nieuws{
+    margin: 20 15 20 40px;
+    font-weight: bold;
+    line-height: 1.2381;
+    line-height: 1.2381;
+}
+
+.columns3 .column-item3{
+    float: left;
+    width: 29%;
+    margin: 30px 0 30px 40px;
+}
+
+.columns3 .column-item3 .time{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10 0 10 0px;
+}
+
+.meernieuws{
+    margin: 10 0 30 40px;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.columns4 .column-item4{
+    float: left;
+    width: 33.3%;
+    margin: 5 0 30 40px;
+    border: 2px solid lightgrey;
+    padding: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    line-height: 1.625rem;
+}
+
+.columns4 .column-item4 .vragen h2,
+.columns4 .column-item4 .melden h2{
+    font-weight: bold;
+    font-size: 31px;
+    padding: 15 0 15 0px 
+}
+
+.columns4 .column-item4 .vragen p{
+    font-weight: normal;
+    font-size: 28px;
+    color: #000;
+}
+
+.columns4 .column-item4 .melden h2{
+    padding: 10 0 5 0px;
+    color: #a90061;
+}
+
+.columns4 .column-item4 .melden p{
+    margin: 5 0 47 0px;
+    color: #000;
+    font-size: 21px;
+}
+
+footer #footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .rijksoverheid{
+    Flex: 1 0 40%;
+    color: #fff;
+    margin: 40 0 50 40px;
+}
+
+#footer .list1, #footer .list2{
+    flex: 0 0 29%;
+    line-height: 1.625rem;
+    padding-bottom: 30px;
+}
+
+#footer .list2 {
+    margin: 0 40 0 20px;
+}
+
+#footer .list1 h2, 
+#footer .list2 h2{
+    margin: 40 0px;
+}
+
+
+#footer{
+    background: #01689b;
+}
+
+#footer .list1 a, #footer .list2 a{
+    text-decoration: none;
+    color: #fff;   
+}
+
+#footer .list1  h2,
+#footer .list2 h2{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#footer .list1 a, #footer .list2{
+    margin: 0 0 0 40px;
+}
+
+
+
+#footernav ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+#footernav ul li a{
+    text-decoration: none;
+    margin: 5 10 5 0px;
+    padding: 5 10 5 10px;
+    border: 1px solid #b2d7ee;
+    color: #007bc7;
+}
+
+#footernav{
+    min-height: 7%;
+    margin: 70 0 0 300px;
+}
+
+#footernav ul li:first-child{
+    padding: 5 10 5 10px;
+}
+
+
+
+
+
